@@ -1,0 +1,21 @@
+@Copyright Apostu Croitoru Diana 321CA
+Etapa 2
+
+Arhiva contine urmatoarele fisiere:
+
+    * Directorul "in" care contine 10 teste de intrare
+    * Directorul "other_tests" care contine doua teste de intrare si doua teste de iesire.Aceste teste au dimensiune foarte mare.   
+    * Directorul "out" care contine solutiile testelor din directorul "in"
+    * Fisierul algo.cpp care contine cel mai eficient algoritm, cel cu SegmentsTree(denumit Segments in arhiva) 
+    * sursele .cpp ale celor 3 algoritmi implementati
+	- SparseTable.cpp - implementarea folosind Sparse Table
+	- Sqrt Decomposition - implementarea folosind blocuri de dimensiune sqrt
+	- SegmentTrees.cpp - implementarea folosind Segment Tree
+    * main.cpp - main-ul pentru fisierul algo.cpp 
+	- fiecare test este generat random atat vectorul, cat si interogarile
+	- am generat 12 teste (inclusiv cele din other_tests) ;
+	- ultimele 2 teste au dimensiuni foarte mari
+
+**Scriptul tester.sh compara rezultatele pentru fiecare algoritm cu cele din out,
+testand astfel corectitudinea acestora. Ruland scriptul , fiecare algoritm primeste
+fisierul de intrare si fisierul de iesire , returnand un raspuns in ceea ce priveste corectitudinea acestora. Am folosit functia rmq doar pentru algoritmul algo.cpp.
